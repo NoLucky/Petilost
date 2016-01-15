@@ -1,2 +1,10 @@
 ﻿body {
+    background-image:url("../images/Background.jpg")
+}
+
+.titlesFont{
+    color:burlywood;
+    text-align:center;
+    font-style:italic;
+    font-size:x-large;
 }

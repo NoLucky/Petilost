@@ -12,9 +12,38 @@
 
     <!-- Petilost references -->
     <link href="css/index.css" rel="stylesheet" />
+    <link href="css/animate.css" rel="stylesheet"/>
+    
+    <!-- Angular -->
+    <script src="scripts/angular.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="scripts/bootstrap.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
-    <p>Hello, your application is ready!</p>
+    <p class="animated infinite pulse titlesFont">¡Welcome!</p>
+    <br/>
+    <p class="animated infinite pulse titlesFont">Please log in</p>
+    <br/>
+    <p class="animated infinite pulse titlesFont">&</p>
+    <br />
+    <p class="animated infinite pulse titlesFont">Help find lost pets</p>
+
+    <form role="form">
+        <div class="form-group">
+            <label for="email">Email address:</label>
+            <input type="email" class="animated rollIn form-control" id="email">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="animated rollIn form-control" id="pwd">
+        </div>
+        <div class="checkbox">
+            <label><input type="checkbox"> Remember me</label>
+        </div>
+        <button  type="submit" class="animated rollIn btn btn-info btn-block">Submit</button>
+    </form>
 
     <!-- Cordova reference, this is added to your app when it's built. -->
     <script src="cordova.js"></script>

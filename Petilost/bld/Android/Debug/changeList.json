@@ -208,7 +208,6 @@
   ],
   "deletedPluginsIos": [],
   "changedFiles": [
-    "www\\scripts\\jquery-2.2.0.min.js",
     "www\\index.html"
   ],
   "deletedFiles": [],
